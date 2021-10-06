@@ -21,3 +21,29 @@ a {
     text-decoration: none;
     font-size: 30pt;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.header {
+    width: 100%;
+    background-color: black
+}
+div.left {
+    float: left;
+    width: 30%;
+    height: 500px; 
+    background-color: darkred;
+}
+div.right {
+    float: right;
+    width: 70%;
+    height: 500px;
+    background-color: crimson
+}
+div.footer{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: firebrick;
+}
